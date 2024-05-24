@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Store</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <h1 id="container-title">Fake Store</h1>
+    <button id="btn-produtos" onclick="criarCards()">Listar Produtos</button>
+    <form>
+        <select name="option" id="option">
+            <option value="categoria" selected disabled>Selecione uma categoria</option>
+            <option value="electronics">Eletrônicos</option>
+            <option value="jewelery">Jóias</option>
+            <option value="men's clothing">Roupas Masculinas</option>
+            <option value="women's clothing">Roupas Femininas</option>
+        </select>
+    </form>
+    <main id="container"></main>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
